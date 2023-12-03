@@ -26,6 +26,33 @@
             </ul>
         </nav>
     </header>
-
+	
+	<main>
+        <section>
+            <h2>Com uso de Flow</h2>
+			
+            <h3>Flow init:</h3>
+			<p>Inicializa o repositório para usar o Flow, configurando o ambiente e as configurações necessárias para começar a trabalhar com o fluxo de trabalho definido.</p>
+			
+			<h3>Flow feature start <nome_da_feature>: </h3>
+			<p>Cria uma nova branch para desenvolver uma nova funcionalidade. Isso segue o conceito de criar branches separadas para cada funcionalidade a ser implementada. </p>
+			
+			<h3>Flow feature finish <nome_da_feature>: </h3>
+			<p>Conclui o desenvolvimento de uma funcionalidade específica e integra as mudanças de volta à branch principal (normalmente develop ou main), fechando a branch da funcionalidade.</p>
+			
+			<h3>Flow release start <versão>:</h3>
+			<p>Cria uma nova branch para preparar uma versão de lançamento, permitindo correções finais e testes antes de lançar no ambiente de produção.</p>
+			
+			<h3>Flow release finish <versão>: </h3>
+			<p>Conclui a versão de lançamento, integrando as alterações de volta à branch principal, adicionando uma tag para a versão e mesclando as alterações na develop ou main.</p>
+			
+			<h3>Flow hotfix start <nome_do_hotfix>: </h3>
+			<p>Inicia uma correção rápida em produção. Cria uma nova branch para corrigir bugs críticos que não podem esperar até a próxima versão planejada.</p>
+			
+			<h3>Flow hotfix finish <nome_do_hotfix>: </h3>
+			<p>Conclui a correção e aplica as mudanças tanto na branch principal quanto na develop ou main, assegurando que todas as versões tenham o bug corrigido.</p>        
+        </section>
+        
+    </main>
 </body>
 </html>
